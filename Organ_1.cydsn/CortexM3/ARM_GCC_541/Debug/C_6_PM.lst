@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
   28:Generated_Source\PSoC5/C_6_PM.c **** *     Save the current user configuration
   29:Generated_Source\PSoC5/C_6_PM.c **** *
   30:Generated_Source\PSoC5/C_6_PM.c **** * Parameters:  
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 2
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 2
 
 
   31:Generated_Source\PSoC5/C_6_PM.c **** *  void
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
   68:Generated_Source\PSoC5/C_6_PM.c **** *
   69:Generated_Source\PSoC5/C_6_PM.c **** * Global variables:
   70:Generated_Source\PSoC5/C_6_PM.c **** *  C_6_backup:  Variables of this global structure are used to 
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 3
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 3
 
 
   71:Generated_Source\PSoC5/C_6_PM.c **** *  restore the values of non retention registers on wakeup from sleep mode.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
   63              		.cfi_startproc
   64              		@ args = 0, pretend = 0, frame = 0
   65              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 4
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 4
 
 
   66              		.loc 1 106 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
   99              		.section	.text.C_6_Wakeup,"ax",%progbits
  100              		.align	2
  101              		.global	C_6_Wakeup
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 5
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 5
 
 
  102              		.thumb
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  126              		.align	2
  127              	.L12:
  128 0010 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 6
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 6
 
 
  129              		.cfi_endproc
@@ -325,15 +325,15 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  149 000b 01       		.uleb128 0x1
  150 000c 5E000000 		.4byte	.LASF27
  151 0010 0C       		.byte	0xc
- 152 0011 E6010000 		.4byte	.LASF28
- 153 0015 06020000 		.4byte	.LASF29
+ 152 0011 16020000 		.4byte	.LASF28
+ 153 0015 92010000 		.4byte	.LASF29
  154 0019 00000000 		.4byte	.Ldebug_ranges0+0
  155 001d 00000000 		.4byte	0
  156 0021 00000000 		.4byte	.Ldebug_line0
  157 0025 02       		.uleb128 0x2
  158 0026 01       		.byte	0x1
  159 0027 06       		.byte	0x6
- 160 0028 DA010000 		.4byte	.LASF0
+ 160 0028 0A020000 		.4byte	.LASF0
  161 002c 02       		.uleb128 0x2
  162 002d 01       		.byte	0x1
  163 002e 08       		.byte	0x8
@@ -341,7 +341,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  165 0033 02       		.uleb128 0x2
  166 0034 02       		.byte	0x2
  167 0035 05       		.byte	0x5
- 168 0036 A1010000 		.4byte	.LASF2
+ 168 0036 D1010000 		.4byte	.LASF2
  169 003a 02       		.uleb128 0x2
  170 003b 02       		.byte	0x2
  171 003c 07       		.byte	0x7
@@ -349,7 +349,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  173 0041 02       		.uleb128 0x2
  174 0042 04       		.byte	0x4
  175 0043 05       		.byte	0x5
- 176 0044 B4010000 		.4byte	.LASF4
+ 176 0044 E4010000 		.4byte	.LASF4
  177 0048 02       		.uleb128 0x2
  178 0049 04       		.byte	0x4
  179 004a 07       		.byte	0x7
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  182 0050 08       		.byte	0x8
  183 0051 05       		.byte	0x5
  184 0052 7F010000 		.4byte	.LASF6
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 7
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 7
 
 
  185 0056 02       		.uleb128 0x2
@@ -405,7 +405,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  226 00a9 02       		.uleb128 0x2
  227 00aa 08       		.byte	0x8
  228 00ab 04       		.byte	0x4
- 229 00ac CE010000 		.4byte	.LASF15
+ 229 00ac FE010000 		.4byte	.LASF15
  230 00b0 02       		.uleb128 0x2
  231 00b1 04       		.byte	0x4
  232 00b2 07       		.byte	0x7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  239 00bf 07       		.uleb128 0x7
  240 00c0 6C010000 		.4byte	.LASF17
  241 00c4 03       		.byte	0x3
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 8
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 8
 
 
  242 00c5 42       		.byte	0x42
@@ -438,12 +438,12 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  256 00e2 04       		.byte	0x4
  257 00e3 00       		.byte	0
  258 00e4 08       		.uleb128 0x8
- 259 00e5 BD010000 		.4byte	.LASF20
+ 259 00e5 ED010000 		.4byte	.LASF20
  260 00e9 03       		.byte	0x3
  261 00ea 49       		.byte	0x49
  262 00eb B7000000 		.4byte	0xb7
  263 00ef 09       		.uleb128 0x9
- 264 00f0 92010000 		.4byte	.LASF21
+ 264 00f0 C2010000 		.4byte	.LASF21
  265 00f4 01       		.byte	0x1
  266 00f5 2A       		.byte	0x2a
  267 00f6 00000000 		.4byte	.LFB0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  296 0137 00000000 		.4byte	.LFB3
  297 013b 14000000 		.4byte	.LFE3-.LFB3
  298 013f 01       		.uleb128 0x1
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 9
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 9
 
 
  299 0140 9C       		.byte	0x9c
@@ -496,8 +496,8 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  311 015b 03       		.byte	0x3
  312 015c 00000000 		.4byte	C_6_backup
  313 0160 0D       		.uleb128 0xd
- 314 0161 AB010000 		.4byte	.LASF25
- 315 0165 AB010000 		.4byte	.LASF25
+ 314 0161 DB010000 		.4byte	.LASF25
+ 315 0165 DB010000 		.4byte	.LASF25
  316 0169 03       		.byte	0x3
  317 016a 50       		.byte	0x50
  318 016b 0D       		.uleb128 0xd
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  353 001b 0E       		.uleb128 0xe
  354 001c 00       		.byte	0
  355 001d 00       		.byte	0
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 10
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 10
 
 
  356 001e 03       		.uleb128 0x3
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  410 0054 13       		.uleb128 0x13
  411 0055 38       		.uleb128 0x38
  412 0056 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 11
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 11
 
 
  413 0057 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  467 008e 06       		.uleb128 0x6
  468 008f 40       		.uleb128 0x40
  469 0090 18       		.uleb128 0x18
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 12
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 12
 
 
  470 0091 9742     		.uleb128 0x2117
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  524 000c 0000     		.2byte	0
  525 000e 0000     		.2byte	0
  526 0010 00000000 		.4byte	.LFB0
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 13
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 13
 
 
  527 0014 02000000 		.4byte	.LFE0-.LFB0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  562      7400
  563              	.LASF1:
  564 0050 756E7369 		.ascii	"unsigned char\000"
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 14
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 14
 
 
  564      676E6564 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  586      206C6F6E 
  586      6720756E 
  586      7369676E 
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 15
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 15
 
 
  586      65642069 
@@ -864,54 +864,51 @@ ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 1
  595              	.LASF13:
  596 018d 63686172 		.ascii	"char\000"
  596      00
- 597              	.LASF21:
- 598 0192 435F365F 		.ascii	"C_6_SaveConfig\000"
- 598      53617665 
- 598      436F6E66 
- 598      696700
- 599              	.LASF2:
- 600 01a1 73686F72 		.ascii	"short int\000"
- 600      7420696E 
- 600      7400
- 601              	.LASF25:
- 602 01ab 435F365F 		.ascii	"C_6_Stop\000"
- 602      53746F70 
- 602      00
- 603              	.LASF4:
- 604 01b4 6C6F6E67 		.ascii	"long int\000"
- 604      20696E74 
- 604      00
- 605              	.LASF20:
- 606 01bd 435F365F 		.ascii	"C_6_backupStruct\000"
- 606      6261636B 
- 606      75705374 
- 606      72756374 
- 606      00
- 607              	.LASF15:
- 608 01ce 6C6F6E67 		.ascii	"long double\000"
- 608      20646F75 
- 608      626C6500 
- 609              	.LASF0:
- 610 01da 7369676E 		.ascii	"signed char\000"
- 610      65642063 
- 610      68617200 
- 611              	.LASF28:
- 612 01e6 47656E65 		.ascii	"Generated_Source\\PSoC5\\C_6_PM.c\000"
- 612      72617465 
-ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccvHa2te.s 			page 16
+ 597              	.LASF29:
+ 598 0192 433A5C55 		.ascii	"C:\\Users\\Rob\\Documents\\DivideDown\\Organ_1.cyds"
+ 598      73657273 
+ 598      5C526F62 
+ 598      5C446F63 
+ 598      756D656E 
+ 599 01c0 6E00     		.ascii	"n\000"
+ 600              	.LASF21:
+ 601 01c2 435F365F 		.ascii	"C_6_SaveConfig\000"
+ 601      53617665 
+ 601      436F6E66 
+ 601      696700
+ 602              	.LASF2:
+ 603 01d1 73686F72 		.ascii	"short int\000"
+ 603      7420696E 
+ 603      7400
+ 604              	.LASF25:
+ 605 01db 435F365F 		.ascii	"C_6_Stop\000"
+ 605      53746F70 
+ 605      00
+ 606              	.LASF4:
+ 607 01e4 6C6F6E67 		.ascii	"long int\000"
+ 607      20696E74 
+ 607      00
+ 608              	.LASF20:
+ 609 01ed 435F365F 		.ascii	"C_6_backupStruct\000"
+ 609      6261636B 
+ 609      75705374 
+ 609      72756374 
+ 609      00
+ 610              	.LASF15:
+ 611 01fe 6C6F6E67 		.ascii	"long double\000"
+ 611      20646F75 
+ 611      626C6500 
+ARM GAS  C:\Users\Rob\AppData\Local\Temp\ccKYQUnT.s 			page 16
 
 
- 612      645F536F 
- 612      75726365 
- 612      5C50536F 
- 613              	.LASF29:
- 614 0206 433A5C55 		.ascii	"C:\\Users\\Rob\\Documents\\PSoC Creator\\DivideDown"
- 614      73657273 
- 614      5C526F62 
- 614      5C446F63 
- 614      756D656E 
- 615 0234 5C4F7267 		.ascii	"\\Organ_1.cydsn\000"
- 615      616E5F31 
- 615      2E637964 
- 615      736E00
+ 612              	.LASF0:
+ 613 020a 7369676E 		.ascii	"signed char\000"
+ 613      65642063 
+ 613      68617200 
+ 614              	.LASF28:
+ 615 0216 47656E65 		.ascii	"Generated_Source\\PSoC5\\C_6_PM.c\000"
+ 615      72617465 
+ 615      645F536F 
+ 615      75726365 
+ 615      5C50536F 
  616              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

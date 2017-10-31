@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: D_Sharp_6_Out.h  
+* File Name: D6.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_D_Sharp_6_Out_ALIASES_H) /* Pins D_Sharp_6_Out_ALIASES_H */
-#define CY_PINS_D_Sharp_6_Out_ALIASES_H
+#if !defined(CY_PINS_D6_ALIASES_H) /* Pins D6_ALIASES_H */
+#define CY_PINS_D6_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define D_Sharp_6_Out_0			(D_Sharp_6_Out__0__PC)
-#define D_Sharp_6_Out_0_INTR	((uint16)((uint16)0x0001u << D_Sharp_6_Out__0__SHIFT))
+#define D6_0			(D6__0__PC)
+#define D6_0_INTR	((uint16)((uint16)0x0001u << D6__0__SHIFT))
 
-#define D_Sharp_6_Out_INTR_ALL	 ((uint16)(D_Sharp_6_Out_0_INTR))
+#define D6_INTR_ALL	 ((uint16)(D6_0_INTR))
 
-#endif /* End Pins D_Sharp_6_Out_ALIASES_H */
+#endif /* End Pins D6_ALIASES_H */
 
 
 /* [] END OF FILE */

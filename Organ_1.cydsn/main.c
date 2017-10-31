@@ -16,7 +16,10 @@ int main(void)
     CyGlobalIntEnable; /* Enable global interrupts. */
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-
+    Clock_1_Start();
+    Clock_2_Start();
+    C_6_Start();
+    C_Sharp_6_Start();
     for(;;)
     {
         /* Place your application code here. */

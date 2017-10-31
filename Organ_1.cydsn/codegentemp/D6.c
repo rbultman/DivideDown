@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: D_Sharp_6_Out.c  
+* File Name: D6.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "D_Sharp_6_Out.h"
+#include "D6.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 D_Sharp_6_Out__PORT == 15 && ((D_Sharp_6_Out__MASK & 0xC0) != 0))
+	 D6__PORT == 15 && ((D6__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: D_Sharp_6_Out_Write
+* Function Name: D6_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet D_Sharp_6_Out_SUT.c usage_D_Sharp_6_Out_Write
+*  \snippet D6_SUT.c usage_D6_Write
 *******************************************************************************/
-void D_Sharp_6_Out_Write(uint8 value)
+void D6_Write(uint8 value)
 {
-    uint8 staticBits = (D_Sharp_6_Out_DR & (uint8)(~D_Sharp_6_Out_MASK));
-    D_Sharp_6_Out_DR = staticBits | ((uint8)(value << D_Sharp_6_Out_SHIFT) & D_Sharp_6_Out_MASK);
+    uint8 staticBits = (D6_DR & (uint8)(~D6_MASK));
+    D6_DR = staticBits | ((uint8)(value << D6_SHIFT) & D6_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: D_Sharp_6_Out_SetDriveMode
+* Function Name: D6_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void D_Sharp_6_Out_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet D_Sharp_6_Out_SUT.c usage_D_Sharp_6_Out_SetDriveMode
+*  \snippet D6_SUT.c usage_D6_SetDriveMode
 *******************************************************************************/
-void D_Sharp_6_Out_SetDriveMode(uint8 mode)
+void D6_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(D_Sharp_6_Out_0, mode);
+	CyPins_SetPinDriveMode(D6_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: D_Sharp_6_Out_Read
+* Function Name: D6_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void D_Sharp_6_Out_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet D_Sharp_6_Out_SUT.c usage_D_Sharp_6_Out_Read  
+*  \snippet D6_SUT.c usage_D6_Read  
 *******************************************************************************/
-uint8 D_Sharp_6_Out_Read(void)
+uint8 D6_Read(void)
 {
-    return (D_Sharp_6_Out_PS & D_Sharp_6_Out_MASK) >> D_Sharp_6_Out_SHIFT;
+    return (D6_PS & D6_MASK) >> D6_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: D_Sharp_6_Out_ReadDataReg
+* Function Name: D6_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 D_Sharp_6_Out_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred D_Sharp_6_Out_Read() API because the 
-* D_Sharp_6_Out_ReadDataReg() reads the data register instead of the status 
+* preferred D6_Read() API because the 
+* D6_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 D_Sharp_6_Out_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet D_Sharp_6_Out_SUT.c usage_D_Sharp_6_Out_ReadDataReg 
+*  \snippet D6_SUT.c usage_D6_ReadDataReg 
 *******************************************************************************/
-uint8 D_Sharp_6_Out_ReadDataReg(void)
+uint8 D6_ReadDataReg(void)
 {
-    return (D_Sharp_6_Out_DR & D_Sharp_6_Out_MASK) >> D_Sharp_6_Out_SHIFT;
+    return (D6_DR & D6_MASK) >> D6_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(D_Sharp_6_Out_INTSTAT) 
+#if defined(D6_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: D_Sharp_6_Out_SetInterruptMode
+    * Function Name: D6_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 D_Sharp_6_Out_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use D_Sharp_6_Out_INTR_ALL to configure the
+    *  component. Or you may use D6_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - D_Sharp_6_Out_0_INTR       (First pin in the list)
-    *  - D_Sharp_6_Out_1_INTR       (Second pin in the list)
+    *  - D6_0_INTR       (First pin in the list)
+    *  - D6_1_INTR       (Second pin in the list)
     *  - ...
-    *  - D_Sharp_6_Out_INTR_ALL     (All pins in Pins component)
+    *  - D6_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 D_Sharp_6_Out_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet D_Sharp_6_Out_SUT.c usage_D_Sharp_6_Out_SetInterruptMode
+    *  \snippet D6_SUT.c usage_D6_SetInterruptMode
     *******************************************************************************/
-    void D_Sharp_6_Out_SetInterruptMode(uint16 position, uint16 mode)
+    void D6_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & D_Sharp_6_Out_0_INTR) != 0u) 
+		if((position & D6_0_INTR) != 0u) 
 		{ 
-			 D_Sharp_6_Out_0_INTTYPE_REG = (uint8)mode; 
+			 D6_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: D_Sharp_6_Out_ClearInterrupt
+    * Function Name: D6_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 D_Sharp_6_Out_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet D_Sharp_6_Out_SUT.c usage_D_Sharp_6_Out_ClearInterrupt
+    *  \snippet D6_SUT.c usage_D6_ClearInterrupt
     *******************************************************************************/
-    uint8 D_Sharp_6_Out_ClearInterrupt(void)
+    uint8 D6_ClearInterrupt(void)
     {
-        return (D_Sharp_6_Out_INTSTAT & D_Sharp_6_Out_MASK) >> D_Sharp_6_Out_SHIFT;
+        return (D6_INTSTAT & D6_MASK) >> D6_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 
