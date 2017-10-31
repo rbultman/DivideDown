@@ -1,1 +1,6 @@
 *.o
+codegentemp
+Generated_Source
+*.lst
+*.log
+Generated_Source
