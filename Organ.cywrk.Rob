@@ -227,17 +227,14 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs>
-<name v=".\Organ_1.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Organ_1.cydsn\Organ_1.cydwr" />
-</OpenDocs>
+<OpenDocs />
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1390, 897" SelectedTabbedMdiWindow="7e06266f-19f2-4c7d-acb4-40b0d3421556"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="a7a5f2af-9964-4a1f-9ba1-3ecb3fb4cc68" /><DocumentWindow Key="C:\Users\Rob\Documents\PSoC Creator\Organ\Organ_1.cydsn\TopDesign\TopDesign.cysch" Guid="7e06266f-19f2-4c7d-acb4-40b0d3421556" /><DocumentWindow Key="C:\Users\Rob\Documents\PSoC Creator\Organ\Organ_1.cydsn\Organ_1.cydwr" Guid="726ed4af-0334-49f3-93a3-c0780ed9d415" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1644, 897" SelectedTabbedMdiWindow="a7a5f2af-9964-4a1f-9ba1-3ecb3fb4cc68"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="a7a5f2af-9964-4a1f-9ba1-3ecb3fb4cc68" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
