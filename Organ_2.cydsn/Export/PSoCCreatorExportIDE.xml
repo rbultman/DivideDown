@@ -115,8 +115,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CS6_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CS6.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CS6.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CS4_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CS4.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CS4.h</File>
@@ -213,6 +211,19 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\DS_Osc.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\DS_Osc.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\DS_Osc_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_IntClock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_IntClock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\E_Osc.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\E_Osc.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\E_Osc_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\F_Osc.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\F_Osc.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\F_Osc_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Rob\Documents\DivideDown\Organ_2.cydsn\Export\ARM_GCC_Generic">
