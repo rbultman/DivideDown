@@ -24,18 +24,18 @@ int main(void)
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     Clock_1_Start();
-    C_Osc_WritePeriod(C_OSC_DIVIDER);
-    C_Osc_Start();
-    CS_Osc_WritePeriod(CS_OSC_DIVIDER);
-    CS_Osc_Start();
-    D_Osc_WritePeriod(D_OSC_DIVIDER);
-    D_Osc_Start();
-    DS_Osc_WritePeriod(DS_OSC_DIVIDER);
-    DS_Osc_Start();
-    E_Osc_WritePeriod(E_OSC_DIVIDER);
-    E_Osc_Start();
-    F_Osc_WritePeriod(F_OSC_DIVIDER);
-    F_Osc_Start();
+    Note6_Osc_WritePeriod(C_OSC_DIVIDER);
+    Note6_Osc_Start();
+    Note5_Osc_WritePeriod(CS_OSC_DIVIDER);
+    Note5_Osc_Start();
+    Note4_Osc_WritePeriod(D_OSC_DIVIDER);
+    Note4_Osc_Start();
+    Note3_Osc_WritePeriod(DS_OSC_DIVIDER);
+    Note3_Osc_Start();
+    Note2_Osc_WritePeriod(E_OSC_DIVIDER);
+    Note2_Osc_Start();
+    Note1_Osc_WritePeriod(F_OSC_DIVIDER);
+    Note1_Osc_Start();
     for(;;)
     {
         /* Place your application code here. */
