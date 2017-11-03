@@ -3,13 +3,17 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="Organ" persistent="Organ.cywrk" platform="NOT_USED">
-<current_project name=".\Organ_2.cydsn\Organ_2.cyprj" />
+<current_project name=".\PWMx7.cydsn\PWMx7.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
 <v>.\Organ_2.cydsn\Organ_2.cyprj</v>
 <v>.\Organ_1.cydsn\Organ_1.cyprj</v>
 <v>.\Organ_3.cydsn\Organ_3.cyprj</v>
+<v>.\Organ_4.cydsn\Organ_4.cyprj</v>
+<v>.\PWM_Divider.cydsn\PWM_Divider.cyprj</v>
+<v>.\PWMx13.cydsn\PWMx13.cyprj</v>
+<v>.\PWMx7.cydsn\PWMx7.cyprj</v>
 </projects>
 <workspace_id v="da303d73-9991-43e7-ad95-b846cf97984b" />
 <WriteAppVersionLastSavedWith v="4.1.0.3210" />
