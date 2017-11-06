@@ -5,3 +5,7 @@ Generated_Source
 *.log
 Generated_Source
 CortexM3
+*.cycdx
+*.rpt
+*.svd
+*_timing.html
